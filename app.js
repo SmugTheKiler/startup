@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 const waitlistDataFile = './waitlist-data.json';
 
-app.post('/submit', (req, res) => {
+app.post('/startup/submit', (req, res) => {
   const name = req.body.name;
   const email = req.body.email;
   const message = req.body.message;
