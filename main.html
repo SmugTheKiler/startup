@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Waitlist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Join Our Waitlist</h1>
+      <p>We're launching soon. Enter your email address to be notified.</p>
+      <p>Small description of the company goes here</p>
+      <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5"></textarea>
+
+        <button type="submit">Join Waitlist</button>
+      </form>
+    </header>
+
+    <div class="company-description">
+      <h3>Company 1</h3>
+      <p>Description of Company 1</p>
+    </div>
+
+    <div class="company-description">
+      <h3>Company 2</h3>
+      <p>Description of Company 2</p>
+    </div>
+
+    <div class="company-description">
+      <h3>Company 3</h3>
+      <p>Description of Company 3</p>
+    </div>
+
+    <footer>
+      &copy; 2023 Waitlist. All rights reserved.
+    </footer>
+  </body>
+</html>
